@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/imagenes/abstract-blue-extruded-voronoi-blocks-background-minimal-light-clean-corporate-wall-3d-geometric-surface-illustration-polygonal-elements-displacement.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-weight: 600;
+}
+
+p {
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+h4 {
+    font-weight: 600;
+}
+h5 {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+    .imagenEdu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .tituloFP {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+.tituloPequeño {
+    display: none;
+    }
+}
+
+.imagenFP {
+    width: 50px;
+    height: auto;
+}
+
+.tituloPequeño {
+    text-align-last: center;
+}
+
+.logoFP {
+    width: 100px;
+}
+
+.imagenCarrusel img {
+    border-radius: 50%;
+}
+
+.botonesRedes {
+    width: 25px;
+    height: 25px;
+}
+
+.bordeCSS {
+    border: 2px;
+    border-style: outset;
+    border-radius: 5px;
+}
+
+.colorBack {
+    background-color: #5086b9;
+    opacity: 90%;
+}
+
+.fondoHola {
+    background-image: url(/imagenes/keyboard-and-notepad-flat-lay.jpg);
+    background-size: cover;
+    opacity: 95%;
+}
+
+.fondoSobremi {
+    background: linear-gradient(45deg, #72d1eb, #289db4);
+    opacity: 95%;
+}
+
+.cambioTamañoP {
+    font-size: 18px;
+}
+
+.letraBlanca {
+    color: #feffff;
+}
